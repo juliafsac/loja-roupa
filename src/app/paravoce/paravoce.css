@@ -15,14 +15,23 @@
 }
 
 .descricao{
-    font-size:20px ;
+    position: relative;
+    padding-right: 40px;
+    font-size:18px ;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    flex: 1;
+    font-weight: bold;
+    margin: 0;
 }
 
-ibtn-cart{
+.btn-cart{
+    position:absolute ;
     background-color: #F69F71;
     border: none;
-    width: 50px;
-    height: 35px;
+    width: 45px;
+    height: 32px;
     border-radius: 8px;
+   margin-bottom: 50px;
+    
 }
