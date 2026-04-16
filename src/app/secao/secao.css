@@ -6,9 +6,11 @@ flex-direction: row;
     gap: 215px;
     margin-top: 5%;
     width: 149px;
+    margin-bottom:50px ;
     height: 167px;
     cursor: pointer;
     transition: 0.3s 
+    
 }
 
 .nomes{
