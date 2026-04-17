@@ -16,50 +16,71 @@
 
 }
 
-.seção2::after {
-    content: "";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-image: url('/assets/seta.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    transform: translateY(3px);
+.btn-feminino{
+   background-color:#000000 ;
+   color: #ffff;
+   padding: 10px 20px;
+   border: 1px solid #bbb5b5;
+   border-radius: 20px;
+   cursor: pointer;
+   font-weight: bold;
+   letter-spacing: 1px;
+   
+}
 
+.btn-feminino:hover{
+    background-color: #F69F71;
+    transition: 0.3s;
+  
 
 }
 
-.seção3::after {
-    content: "";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-image: url('/assets/seta.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    transform: translateY(3px);
+.btn-masculino{
+      background-color:#000000 ;
+   color: #ffff;
+   padding: 10px 20px;
+   border: 1px solid #bbb5b5;
+   border-radius: 20px;
+   cursor: pointer;
+   font-weight: bold;
+   letter-spacing: 1px;
 }
 
-.seção4::after {
-    content: "";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-image: url('/assets/seta.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    transform: translateY(3px);
+.btn-masculino:hover{
+    background-color: #F69F71;
+    transition: 0.3s;
 }
 
-.seção5::after {
-    content: "";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-image: url('/assets/seta.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    transform: translateY(3px);
+.btn-jovem{
+      background-color:#000000 ;
+   color: #ffff;
+   padding: 10px 20px;
+   border: 1px solid #bbb5b5;
+   border-radius: 20px;
+   cursor: pointer;
+   font-weight: bold;
+   letter-spacing: 1px;
+}
+
+.btn-jovem:hover{
+    background-color: #F69F71;
+    transition: 0.3s;
+}
+
+.btn-esportivo{
+   background-color:#000000 ;
+   color: #ffff;
+   padding: 10px 20px;
+   border: 1px solid #bbb5b5;
+   border-radius: 20px;
+   cursor: pointer;
+   font-weight: bold;
+   letter-spacing: 1px;
+}
+
+.btn-esportivo:hover{
+    background-color: #F69F71;
+    transition: 0.3s;
 }
 
 .banner-img {
